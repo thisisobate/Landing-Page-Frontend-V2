@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+
+/* General */
+
+.gradient-bg{
+  color: white!important;
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+}
+
+.gray{
+  color: #757677!important;
+}
+
+.white{
+  color: white!important;
+}
+
+.blue{
+  color: #00d1ff!important;
+}
+
+.colorize-icons svg{
+  margin-left: 1.5rem;
+  width: 20px;
+  height: 20px;
+  color: #00d1ff;
+}
+
+h1{
+  line-height: 4rem;
+}
+
+.writing p, .writing li{
+  color: rgba(41, 41, 41, 1)!important;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.003em;
+  font-weight: 400;
+}
+
+.writing strong{
+  font-weight: 800;
+}
+
+.writing h5{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.writing h2{
+  font-size: 46px;
+  line-height: 56px;
+}
+
+
+/* Buttons */
+
+.btn-primary{
+  background-color: #00d1ff!important;
+  border-color: #00d1ff!important;
+  font-weight: 500;
+}
+
+.btn-outline-primary.white{
+  border-color: white!important;
+  color: white!important;
+}
+
+.btn-outline-primary{
+  font-weight: 500;
+  border-color: #00d1ff!important;
+  color: #00d1ff!important;
+}
+
+.btn-outline-primary.white:hover{
+  color: #00d1ff!important;
+  background-color: white!important;
+}
+
+.btn-outline-primary:hover{
+  color: white!important;
+  background-color: #00d1ff!important;
+}
+
+
+
+/* contact us page */
+
+.contact-us-div{
+  height: 600px;
+}
+
+.contact-form-container{
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+
+
+/* Blog page */
+
+.blog-div{
+  height: 300px;
+}
+
+
+
+/* Navbar */
+
+.navbar{
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #00d1ff, #ed1eff);
+}
+
+.banner{
+  border-bottom: 1px solid #E2E2E2;
+  background-color: #F9F8F6;
+}
+
+.nav-link{
+  font-weight: 600;
+}
+
+.navbar-brand{
+  font-weight: 800;
+}
+
+.text-gradient{
+  background: -webkit-linear-gradient(left, #00d1ff, #ed1eff);
+  background: -o-linear-gradient(left, #00d1ff, #ed1eff);
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  font-weight: 700;
+  font-size: 4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.1rem;
+}
+
+.text-gradient-color{
+  background: -webkit-linear-gradient(left, #00d1ff, #ed1eff);
+  background: -o-linear-gradient(left, #00d1ff, #ed1eff);
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Zoom Animation  */
+
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  color: #CED4D9;
+}
+
+.major-listing-image{
+  height: 40px
+}
+
+.major-listings-banner{
+  height: 100px;
+}
+
+.title{
+  font-size: 4.3rem;
+  line-height: 4.3rem;
+}
+
+#subtitle{
+  font-size: 1.3rem!important;
+}
+
+.header .upper-button{
+  margin-right: 1rem;
+}
+
+.banner{
+  text-align: right;
+}
+
+.nav-link{
+  margin-right: 1rem;
+}
+
+.banner{
+  text-align: right;
+}
+
+
+/* Media Queries */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .nav-link{
+    margin-right: 0;
+  }
+
+  .major-listing-image{
+    height: 30px
+  }
+
+  .title{
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  #subtitle{
+    font-size: 1.2rem!important;
+  }
+
+  .banner{
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  .major-listings-banner{
+    height: 150px;
+  }
+
+  .title{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  #subtitle{
+    font-size: 1.1rem!important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 410px) {
+  .header .upper-button{
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+}
