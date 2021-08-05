@@ -26,10 +26,11 @@ export default function Header(props){
                 <p id="subtitle" className="gray header-subtitle" style={{fontWeight: "800"}} className="mb-5">
                   Altura is the next generation gaming NFT platform
                 </p>
-                <Button href="https://www.alturanft.app/" target="_blank" className="my-auto mr-3" size="lg" pill>
+                <Button href="https://www.alturanft.app/" target="_blank" className="my-auto mr-3" size="lg--" pill>
                   Explore marketplace
                 </Button>
 
+                <Button target="_blank" href="https://pancakeswap.finance/swap#/swap?inputCurrency=0x8263CD1601FE73C066bf49cc09841f35348e3be0" outline pill>Buy $ALU</Button>
               </div>
             </div>
             <div className="col col-12 col-lg-5 my-auto">

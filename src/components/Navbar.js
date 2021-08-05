@@ -51,6 +51,8 @@ function NavBar(props){
                     setOpen(true)
                   }}>Copy contract address</NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link target="_blank" href="https://staking.alturanft.com/">Staking</Nav.Link>
+
               <Nav.Link className="" href="/contact">Contact</Nav.Link>
 
             </Nav>
