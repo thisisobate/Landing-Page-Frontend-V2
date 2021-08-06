@@ -120,7 +120,7 @@ export default function Features(props){
                 Explore a whole world of in-game items through Altura's NFT marketplace.
                 It is also the most powerful NFT minting platform.
               </h6>
-              <Button href="https://www.alturanft.app/" target="_blank" className="mt-4" outline pill>Explore Marketplace</Button>
+              <Button href="https://app.alturanft.com/" target="_blank" className="mt-4" outline pill>Explore Marketplace</Button>
             </div>
             <div className="col col-12 col-md-6 p-5">
               <img src="/images/graphics/marketplace.jpg" style={{width: "100%", height: "100%", borderRadius: "15px"}}/>

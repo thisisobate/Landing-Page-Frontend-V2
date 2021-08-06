@@ -26,7 +26,7 @@ export default function Header(props){
                 <p id="subtitle" className="gray header-subtitle" style={{fontWeight: "800"}} className="mb-5">
                   Altura is the next generation gaming NFT platform
                 </p>
-                <Button href="https://www.alturanft.app/" target="_blank" className="my-auto mr-3" size="lg--" pill>
+                <Button href="https://app.alturanft.com/" target="_blank" className="my-auto mr-3" size="lg--" pill>
                   Explore marketplace
                 </Button>
 

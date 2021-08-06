@@ -15,7 +15,7 @@ export default function WhatIsAltura(props){
               Smart NFTs are NFTs with dynamic properties that can change
               based on certain conditions.
             </h6>
-            <Button href="https://www.alturanft.app/" target="_blank" className="mt-4" pill>Explore Marketplace</Button>
+            <Button href="https://app.alturanft.com/" target="_blank" className="mt-4" pill>Explore Marketplace</Button>
             <Button style={{display: "none"}}target="_blank" className="mt-4 ml-3" outline pill>Build on Altura</Button>
           </div>
           <div className="col col-12 col-md-4 text-md-right">

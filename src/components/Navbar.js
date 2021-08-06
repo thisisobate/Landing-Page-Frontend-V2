@@ -56,7 +56,7 @@ function NavBar(props){
               <Nav.Link className="" href="/contact">Contact</Nav.Link>
 
             </Nav>
-            <Button href="https://www.alturanft.app/" target="_blank" className="my-auto" style={{height: "31.2px"}} pill size="sm">
+            <Button href="https://app.alturanft.com/" target="_blank" className="my-auto" style={{height: "31.2px"}} pill size="sm">
               Marketplace
             </Button>
           </Navbar.Collapse>
