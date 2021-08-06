@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+featuredimport { useState, useEffect } from 'react';
 import {BrowserRouter as Router, Route, useLocation} from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';

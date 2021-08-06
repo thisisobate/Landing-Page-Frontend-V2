@@ -8,8 +8,6 @@ import {
   Button
 } from "shards-react";
 
-import ItemCard2 from './ItemCard2'
-
 export default function Header(props){
   return (
     <div>
