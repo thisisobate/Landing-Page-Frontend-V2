@@ -10,6 +10,7 @@ import Home from './views/Home';
 import RequestCollectionVerifiation from './views/RequestCollectionVerification';
 import Contact from './views/Contact';
 import Blog from './views/Blog'
+import Jobs from './views/Jobs'
 
 function App() {
   const [ holders, setHolders ] = useState('--')
@@ -57,6 +58,7 @@ function App() {
         <Route path="/blog/article/request-collection-verification" exact render={(props) => ( <RequestCollectionVerifiation {...props} />)}/>
         <Route path="/contact/:defaultSubject?" exact render={(props) => ( <Contact {...props} />)}/>
         <Route path="/blog/:category?" exact render={(props) => ( <Blog blogs={blogs} {...props} />)}/>
+        <Route path="/jobs" exact render={(props) => ( <Jobs {...props} />)}/>
         <Route path="/" exact render={(props) => ( <Home {...props} news={blogs.featuredNews} holders={holders} marketCap={marketCap} />)}/>
         <Footer />
       </Router>

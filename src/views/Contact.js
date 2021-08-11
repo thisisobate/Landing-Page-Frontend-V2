@@ -8,7 +8,7 @@ import { useParams } from "react-router-dom"
 
 const queryString = require('query-string');
 
-export default function RequestCollectionVerifiation(props){
+export default function Contact(props){
   const [ subject, setSubject ] = useState('General');
   const [ name, setName ] = useState('');
   const [ email, setEmail ] = useState('');
