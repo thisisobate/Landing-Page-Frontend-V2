@@ -77,6 +77,7 @@ export default function Features(props) {
                 and innovation. You can Find all of our code on{" "}
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Plutus-Gaming-NFTs-Reimagined"
                 >
                   GitHub
